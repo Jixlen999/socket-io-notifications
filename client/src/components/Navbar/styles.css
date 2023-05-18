@@ -1,0 +1,70 @@
+.navbar {
+  height: 50px;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.iconImg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.counter {
+  width: 5px;
+  height: 5px;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  top: 50px;
+  color: black;
+  font-weight: bolder;
+  background-color: white;
+  padding: 10px;
+  border: 1.5px solid tomato;
+}
+
+.notification {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.clearBtn {
+  align-self: center;
+  width: 120px;
+}
